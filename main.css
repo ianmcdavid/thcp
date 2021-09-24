@@ -1,5 +1,5 @@
 /** Fonts **/
-h1, h2, h3, h4, h5, span, #mega-menu-wrap-main_menu #mega-menu-main_menu > li.mega-menu-item > a.mega-menu-link, #mega-menu-wrap-main_menu #mega-menu-main_menu > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a.mega-menu-link, .testimonials-title, #hm-featured {
+h1, h2, h3, h4, h5, span, #mega-menu-wrap-main_menu #mega-menu-main_menu > li.mega-menu-item > a.mega-menu-link, #mega-menu-wrap-main_menu #mega-menu-main_menu > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a.mega-menu-link, .testimonials-title, #hm-featured, .sp-slides-container {
 	font-family: pelago, sans-serif;
 	font-weight: 500;
 }
