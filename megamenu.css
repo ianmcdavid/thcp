@@ -1,0 +1,51 @@
+/** Push menu onto new line **/ 
+#{$wrap} { 
+    clear: both; 
+}
+/** Hide theme mobile menu **/
+body.mega-menu-main-menu .mobile-menu-toggle {
+    display: none !important;
+}
+ 
+/** Reveal desktop menu on mobile **/
+body.mega-menu-main-menu #site-navigation-wrap {
+    display: block !important;
+}
+ 
+/** Allow the MMM mobile menu to be 100% wide **/
+@include mobile {
+  #site-navigation.container {
+    max-width: 100%;
+  }
+}
+
+/** Move mobile icon to the left **/
+.navbar-style-one {
+	right: 10px !important;
+}
+
+/** Move submenus to the right **/
+@media only screen and (max-width: 797px){
+	#mega-menu-wrap-main_menu #mega-menu-main_menu > li.mega-menu-item > a.mega-menu-link, #mega-menu-wrap-main_menu #mega-menu-main_menu a.mega-menu-link {
+		text-align: right !important;
+}
+}
+
+/************ Tablet Styling **********/
+@media only screen and (max-width: 963px){
+	.mega-menu-link {
+		font-size: 16px !important;
+	} 
+}
+
+@media only screen and (max-width: 879px){
+	.mega-menu-link {
+		padding: 0 !important;
+	}
+}
+
+@media only screen and (min-width: 880px){
+	#mega-menu-wrap-main_menu #mega-menu-main_menu > li.mega-menu-item {
+		margin: 0;
+	}
+}
