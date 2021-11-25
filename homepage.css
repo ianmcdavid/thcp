@@ -42,6 +42,39 @@
     height: 100%;
 }
 
+/************** Ribbon Embed Styling ********/
+#ribbon-content  {
+    font-family: 'pelago' !important;
+}
+
+/*** Date ***/
+.ribbon-hoverable > div > div {
+    font-size: 18px !important;
+}
+
+/*** Paragraph Text ***/
+.ribbon-hoverable div:nth-child(2) div:nth-child(2) {
+    font-size: 18px !important;
+    font-weight: 300;
+}
+
+/*** Button ***/
+.ribbon-hoverable div:nth-child(3) > div {
+    border: 3px solid #F06543;
+}
+
+/*** Button Hover ***/
+.ribbon-hoverable div:nth-child(3) > div:hover {
+    color: #FEFDFE !important;
+    background-color: #F06543 !important;
+}
+
+/*** Bottom Margin ***/
+#live-events > div > div {
+    margin-bottom: 0;
+}
+
+
 /************** Tablet Styling **************/
 @media only screen and (min-width: 768px) and (max-width: 1024px){
     #hp-prob-sol-p > .vc_column-inner > .wpb_wrapper > .vc_empty_space {
