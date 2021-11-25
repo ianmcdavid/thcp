@@ -28,10 +28,11 @@ p {
 	margin-top: -140px;
 }
 
-/** Fix Safari Navigation Bug**/
-#mega-menu-wrap-main_menu #mega-menu-main_menu > li.mega-menu-item > a.mega-menu-link {
-	display: unset;
+/** Fix video height on small screens **/
+vc_row wpb_row vc_row-fluid vc_row-o-full-height vc_row-o-columns-middle vc_row-o-content-top vc_row-flex wpex-vc-row-stretched wpex-vc-has-custom-column-spacing wpex-vc-column-spacing-0px no-bottom-margins tablet-fullwidth-columns {
+	min-height: 20vh !important;
 }
+
 
 /** Adjust Testimonial Slider arrows **/
 .vcex-testimonials-fullslider.has-arrows .sp-arrow {
@@ -44,14 +45,16 @@ p {
 	margin: -30px 0 0 60px;
 }
 
-/*********** Footer Styling **********/
-#footer {
-	height: 0;
+
+/***************** Mobile Styling ************************/
+/*********** Header ************/
+@media only screen and (max-width: 463px){
+	#site-logo img {
+		width: 75%;
+	}
 }
 
-#footer-code p {
-	margin-bottom: -50px;
-}
+/*********** Footer **********/
 .footer-builder-content > .vc_row-flex {
 	justify-content: center;
 }
@@ -60,26 +63,16 @@ p {
 	margin-bottom: 0;
 }
 
+.thcp-footer-button {
+	width: 150px;
+}
 
-#bottom-button-column, .thcp-footer-button {
+#bottom-button-column {
 	width: 210px;
 }
 
 #bottom-footer-button {
 	width: 200px
-}
-
-/***************** Mobile Styling ************************/
-/*********** Header ************/
-@media only screen and (max-width: 463px){
-	#site-logo img {
-		width: 75%;
-	}
-	
-	#footer-code p {
-	margin-bottom: 0px;
-	}
-
 }
 
 @media only screen and (max-width: 767px){

@@ -1,133 +1,120 @@
-/*********** Hide Video Controls ***********/
-.vp-controls-wrapper {
-    visibility: hidden !important;
+/** Fonts **/
+h1, h2, h3, h4, h5, span, #mega-menu-wrap-main_menu #mega-menu-main_menu > li.mega-menu-item > a.mega-menu-link, #mega-menu-wrap-main_menu #mega-menu-main_menu > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a.mega-menu-link, .testimonials-title, #hm-featured, .sp-slides-container {
+	font-family: pelago, sans-serif;
+	font-weight: 500;
 }
 
-/********Layered Image styles********/
-.grid-wrapper > .vc_column-inner > .wpb_wrapper {
-    display: grid;
-    grid-template-columns: 9.47% 15.52% 28.42% 29.21% 2.89% 1.84% 12.63%;
-    grid-template-rows: 54px 150px 10px 60px 13vw 10px 40px;
-    width: 63vw;
+h1, #mega-menu-main_menu {
+	letter-spacing: 1px;
 }
 
-.hp-img1 > .vcex-image-inner, .hp-img2 > .vcex-image-inner {
-    height: 100%;
-}
-
-.hp-green {
-    grid-column: 3/6;
-    grid-row: 3/6;
-    overflow: hidden;
-    border-radius: 5px;
-}
-
-.hp-img1 {
-    grid-column: 4/7;
-    grid-row: 2/5;
-    overflow: hidden;
-    border-radius: 5px;
-    object-fit: cover;
-    object-position: top;
-    height: 100%;
-}
-
-.hp-img2 {
-    grid-column: 2/5;
-    grid-row: 4/7;
-    overflow:hidden;
-    border-radius: 5px;
-    object-fit: cover;
-    object-postion: center;
-    height: 100%;
-}
-
-/************** Ribbon Embed Styling ********/
-#ribbon-content  {
-    font-family: 'pelago' !important;
-}
-
-/*** Date ***/
-.ribbon-hoverable > div > div {
-    font-size: 18px !important;
-}
-
-/*** Paragraph Text ***/
-.ribbon-hoverable div:nth-child(2) div:nth-child(2) {
-    font-size: 18px !important;
-    font-weight: 300;
-}
-
-/*** Button ***/
-.ribbon-hoverable div:nth-child(3) > div {
-    border: 3px solid #F06543;
-}
-
-/*** Button Hover ***/
-.ribbon-hoverable div:nth-child(3) > div:hover {
-    color: #FEFDFE !important;
-    background-color: #F06543 !important;
-}
-
-/*** Bottom Margin ***/
-#live-events > div > div {
-    margin-bottom: 0;
-}
-
-
-/************** Tablet Styling **************/
-@media only screen and (min-width: 768px) and (max-width: 1024px){
-    #hp-prob-sol-p > .vc_column-inner > .wpb_wrapper > .vc_empty_space {
-    height: 40px !important;
-}
-
-.vc_custom_1631742380327 > .textcenter > a {
-    margin-top: 20px !important;
-}
-}
-
-
-
-
-/********* Mobile Styling ***********/
-@media only screen and (max-width: 767px){
-.grid-wrapper > .vc_column-inner > .wpb_wrapper {
-    display: flex;
-    flex-direction: column;
-}
-
-.hp-green {
-    display: none;
-}
-
-.hp-img1 {
-    width: 40vw;
-    margin-top: 40px;
-}
-
-.hp-img2 {
-    width: 40vw;
-    margin-top: 20px;
-}
-}
-
-/*************************** Mobile Styling *************************/
-/***** Book Group Classes Button *******/
-@media only screen and (max-width:340px) {
-    #hp-prob-sol-p > .vc_column-inner > .wpb_wrapper > div:nth-child(4) {
-    width: 175%;
-}
-}
-@media only screen and (max-width: 414px){
-#hp-prob-sol-p > .vc_column-inner > .wpb_wrapper > .vc_empty_space {
-    height: 20px !important;
-}
-
-.hp-img2 {
-    width: 100%;
+p {
+	font-family: pelago, sans-serif;
+	font-weight: 300;
 }
 
 .thcp-button {
-    margin-top: 20px !important;
+	line-height: .8em;
 }
+
+/** Translucent Header **/
+#site-header-sticky-wrapper.is-sticky #site-header, #site-header {
+	background-color: rgb(254, 253, 254) !important;
+}
+
+/** Make room for sticky header on local links **/
+.anchor {
+	padding-top: 140px;
+	margin-top: -140px;
+}
+
+/** Fix video height on small screens **/
+vc_row wpb_row vc_row-fluid vc_row-o-full-height vc_row-o-columns-middle vc_row-o-content-top vc_row-flex wpex-vc-row-stretched wpex-vc-has-custom-column-spacing wpex-vc-column-spacing-0px no-bottom-margins tablet-fullwidth-columns {
+	min-height: 20vh !important;
+}
+
+
+/** Adjust Testimonial Slider arrows **/
+.vcex-testimonials-fullslider.has-arrows .sp-arrow {
+	font-size: 64px;
+}
+.sp-next-arrow {
+	margin: -30px 60px 0 0;
+}
+.sp-previous-arrow {
+	margin: -30px 0 0 60px;
+}
+
+/*********** Footer Styling **********/
+#footer {
+	height: 0;
+}
+
+#footer-code p {
+	margin-bottom: -50px;
+}
+.footer-builder-content > .vc_row-flex {
+	justify-content: center;
+}
+
+.thcp-footer-button > .vc_column-inner {
+	margin-bottom: 0;
+}
+
+
+#bottom-button-column, .thcp-footer-button {
+	width: 210px;
+}
+
+#bottom-footer-button {
+	width: 200px
+}
+
+/***************** Mobile Styling ************************/
+/*********** Header ************/
+@media only screen and (max-width: 463px){
+	#site-logo img {
+		width: 75%;
+	}
+	
+	#footer-code p {
+	margin-bottom: 0px;
+	}
+
+}
+
+@media only screen and (max-width: 767px){
+	.thcp-footer-button > .vc_column-inner {
+		margin-bottom: 0;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	
+}
+
+/******************** Tablet Styling *********************/
+/*********** Header ************/
+@media only screen and (min-width: 797px) and (max-width: 1058px) {
+	#site-logo img {
+		width: 32vw;
+	}	
+}
+
+/********** Footer *************/
+@media only screen and (min-width: 767px){
+	.thcp-footer-button, #bottom-footer-button, #bottom-button-column {
+	width: 250px;
+	}
+	
+	.footer-builder-content > .vc_row-flex {
+		justify-content: space-around;
+		align-items: center;
+	}
+}
+
+/****************** Desktop Styling ***********************/
+@media only screen and (min-width: 1024px){
+	.thcp-footer-button, #bottom-footer-button, #bottom-button-column {
+	width: 300px;
+	}
 }
