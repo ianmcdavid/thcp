@@ -1,0 +1,17 @@
+/***  Hire Me CSS ***/
+.hm-img-center > .vcex-image-inner > img, .hm-img-left > .vcex-image-inner > img, .hm-img-right > .vcex-image-inner > img {
+    height: 325px;
+    object-fit: cover;
+}
+
+.hm-img-left > .vcex-image-inner > img {
+    box-shadow: -18px 12px #6bab90;
+}
+
+.hm-img-center > .vcex-image-inner > img {
+    box-shadow: 18px -12px #6bab90;
+}
+
+.hm-img-right > .vcex-image-inner > img {
+    box-shadow: 18px 12px #6BAB90;
+}
