@@ -18,18 +18,18 @@ p {
 	line-height: .8em;
 }
 
-/** Translucent Header **/
+/*** Translucent Header ***/
 #site-header-sticky-wrapper.is-sticky #site-header, #site-header {
 	background-color: rgb(254, 253, 254) !important;
 }
 
-/** Make room for sticky header on local links **/
+/*** Make room for sticky header on local links ***/
 .anchor {
 	padding-top: 140px;
 	margin-top: -140px;
 }
 
-/** Fix video height on small screens **/
+/*** Fix video height on small screens ***/
 vc_row wpb_row vc_row-fluid vc_row-o-full-height vc_row-o-columns-middle vc_row-o-content-top vc_row-flex wpex-vc-row-stretched wpex-vc-has-custom-column-spacing wpex-vc-column-spacing-0px no-bottom-margins tablet-fullwidth-columns {
 	min-height: 20vh !important;
 }
