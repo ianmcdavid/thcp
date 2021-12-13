@@ -47,7 +47,7 @@ vc_row wpb_row vc_row-fluid vc_row-o-full-height vc_row-o-columns-middle vc_row-
 }
 
 
-/***************** Mobile Styling ************************/
+/***************** Mobile Styles ************************/
 /*********** Header ************/
 @media only screen and (max-width: 463px){
 	#site-logo img {
@@ -85,7 +85,7 @@ vc_row wpb_row vc_row-fluid vc_row-o-full-height vc_row-o-columns-middle vc_row-
 	
 }
 
-/******************** Tablet Styling *********************/
+/******************** Tablet Styles *********************/
 /*********** Header ************/
 @media only screen and (min-width: 797px) and (max-width: 1058px) {
 	#site-logo img {
@@ -105,7 +105,7 @@ vc_row wpb_row vc_row-fluid vc_row-o-full-height vc_row-o-columns-middle vc_row-
 	}
 }
 
-/****************** Desktop Styling ***********************/
+/****************** Desktop Styles ***********************/
 @media only screen and (min-width: 1024px){
 	.thcp-footer-button, #bottom-footer-button, #bottom-button-column {
 	width: 300px;
